@@ -1,5 +1,6 @@
 .yellow_box {
-    font-family: Arial;
+    font-family: 'Franklin Gothic Medium';
+    font-variant: small-caps;
     font-size: 15px;
     background-color: #cbc112;
     display: flex;
@@ -27,4 +28,8 @@
     background-color: #cbc112;
     width: 66%;
     margin-left: 15px;
+}
+
+.red_box{
+
 }
