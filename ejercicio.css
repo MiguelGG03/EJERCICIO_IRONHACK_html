@@ -68,3 +68,12 @@
     background-color: #12cb28;
     margin-left:15px;
 }
+
+.blue_box{
+    display: flex;
+    place-content: center;
+    margin-top: 25px;
+    width: 100%;
+    border-radius:15px;
+    background-color: #128ccb;
+}
