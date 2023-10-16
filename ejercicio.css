@@ -1,23 +1,25 @@
 .top_box {
     font-family: Arial;
     font-size: 15px;
-    padding: 20px;
-    border: 2px solid #000;
     background-color: #cbc112;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.left-text {
+.box {
     font-family: inherit;
     font-size: inherit;
-    padding: inherit;
-}
-
-.right-text {
-    font-family: inherit;
-    font-size: inherit;
-    padding: inherit;
+    padding: 30px;
     text-align: center;
+}
+
+.left-box {
+    border-right: 2px solid #000;
+    background-color: #cbc112;
+    width:33%;
+}
+
+.right-box {
+    border-left: 2px solid #000;
+    background-color: #cbc112;
+    width:66%;
 }
