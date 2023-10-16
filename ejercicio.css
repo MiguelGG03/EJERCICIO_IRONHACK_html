@@ -1,19 +1,23 @@
-h1{
-    background-color: #fff7008b;
-    padding:45px;
-    padding-bottom: 6%;
+.top_box {
+    font-family: Arial;
+    font-size: 15px;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #cbc112;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-text {
+    font-family: inherit;
+    font-size: inherit;
+    padding: inherit;
+}
+
+.right-text {
+    font-family: inherit;
+    font-size: inherit;
+    padding: inherit;
     text-align: center;
-    border: black 2px solid;
-    margin: 5px;
-
-}
-
-h1>.izquierda{
-    float: left;
-    width: 25%;
-}
-h1>.derecha{
-    float: right;
-    width: 35%;
-    
 }
