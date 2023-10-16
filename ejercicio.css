@@ -31,21 +31,26 @@
 }
 
 .red_box{
-    font-family: 'Arial';
-    font-size: 15px;
-    background-color: #cb3712;
     display: flex;
-    margin-top:20px;
+    flex-direction:column;
+    background-color: #cb1212;
 }
-.box2 {
-    font-family: inherit;
-    font-size: inherit;
-    text-align: center;
-    padding:30px 15px 30px 15px;
-}
-.top_box {
 
+.sub-box-1 {
+    border-bottom: 2px solid #000;
+    height: 100px;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
 }
-.bottom_box{
-    
+.sub-box-2 {
+    border-top: 2px solid #000;
+    height: 100px;
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 15px;
 }
