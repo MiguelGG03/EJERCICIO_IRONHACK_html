@@ -31,5 +31,21 @@
 }
 
 .red_box{
+    font-family: 'Arial';
+    font-size: 15px;
+    background-color: #cb3712;
+    display: flex;
+    margin-top:20px;
+}
+.box2 {
+    font-family: inherit;
+    font-size: inherit;
+    text-align: center;
+    padding:30px 15px 30px 15px;
+}
+.top_box {
 
+}
+.bottom_box{
+    
 }
