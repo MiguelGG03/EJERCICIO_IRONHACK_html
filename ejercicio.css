@@ -1,4 +1,5 @@
 .yellow_box {
+    border-radius: 15px;
     font-family: 'Franklin Gothic Medium';
     font-variant: small-caps;
     font-size: 15px;
@@ -17,7 +18,6 @@
 .left-box {
     place-content: left;
     border-right: 2px solid #000;
-    background-color: #cbc112;
     width: 25%;
     margin-right: 15px;
 }
@@ -25,7 +25,6 @@
 .right-box {
     place-content: right;
     border-left: 2px solid #000;
-    background-color: #cbc112;
     width: 66%;
     margin-left: 15px;
 }
@@ -37,7 +36,7 @@
 }
 
 .sub-box-1 {
-    border-bottom: 2px solid #000;
+    border-bottom: 1px solid #000;
     height: 100px;
     width: 25%;
     padding: 20px;
@@ -46,7 +45,7 @@
     font-size: 15px;
 }
 .sub-box-2 {
-    border-top: 2px solid #000;
+    border-top: 1px solid #000;
     height: 100px;
     width: 25%;
     padding: 20px;
