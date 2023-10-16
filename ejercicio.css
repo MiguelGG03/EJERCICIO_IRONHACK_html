@@ -32,13 +32,15 @@
 .red_box{
     display: flex;
     flex-direction:column;
+    width:29%;
+    border-radius:15px;
     background-color: #cb1212;
 }
 
 .sub-box-1 {
     border-bottom: 1px solid #000;
     height: 100px;
-    width: 25%;
+    width: 89%;
     padding: 20px;
     text-align: center;
     font-family: Arial;
@@ -47,7 +49,7 @@
 .sub-box-2 {
     border-top: 1px solid #000;
     height: 100px;
-    width: 25%;
+    width: 89%;
     padding: 20px;
     text-align: center;
     font-family: Arial;
